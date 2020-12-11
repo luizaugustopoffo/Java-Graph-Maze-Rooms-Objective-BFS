@@ -1,4 +1,3 @@
-//Luiz Augusto Poffo e Victor Thewis Gomes
 package Exercicio2;
 
 public class Grafo {
