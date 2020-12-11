@@ -19,9 +19,9 @@ public class Grafo {
 	}
 
 	//metodo que cria as arrestas
-	protected void addArresta(int a, int b) {
-		getListaVertices()[a].getAdjacente().add(getListaVertices()[b]);
-		if (a != b)
-			getListaVertices()[b].getAdjacente().add(getListaVertices()[a]); 
+	protected void addArresta(int v1, int v2) {
+		getListaVertices()[v1].getAdjacente().add(getListaVertices()[v2]);
+		if (v1 != v2)
+			getListaVertices()[v2].getAdjacente().add(getListaVertices()[v1]); 
 	}
 }
